@@ -139,13 +139,13 @@ p { color: var(--cream-dim); line-height: 1.8; }
   gap: 10px;
 }
 .nav__logo-img {
-  height: 64px;
+  height: 78px;
   width: auto;
   display: block;
   mix-blend-mode: screen;
 }
 .nav__logo-img--footer {
-  height: 72px;
+  height: 86px;
   mix-blend-mode: screen;
 }
 .nav__logo-mark {
