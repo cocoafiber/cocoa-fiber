@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CocoaFiber transforms cocoa pod husks into regenerated cellulose textile fibers. A circular, non-fossil future for textiles." />
+  <meta property="og:title" content="CocoaFiber — Advanced Biomaterials" />
+  <meta property="og:description" content="High-performance fibers from chocolate industry waste. Proprietary regenerated cellulose from cocoa pod husks." />
+  <meta property="og:type" content="website" />
+  <title>CocoaFiber — Advanced Biomaterials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─────────────────────────────────────────────────────────────── -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__logo" aria-label="CocoaFiber home">
+        <img src="cocoafiber-logo.png" alt="CocoaFiber" class="nav__logo-img" />
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav__links" role="list">
+          <li><a href="#technology">Technology</a></li>
+          <li><a href="#applications">Applications</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#samples" class="nav__cta">Request a Sample</a></li>
+        </ul>
+        <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+    <div class="nav__mobile" id="mobile-menu" aria-hidden="true">
+      <ul role="list">
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#applications">Applications</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#samples">Request a Sample</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ─── HERO ─────────────────────────────────────────────────────────── -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Advanced Biomaterials</p>
+          <h1>High-performance<br>fibers from<br><em>chocolate industry waste.</em></h1>
+          <p class="hero__sub">CocoaFiber converts cocoa pod husks — the byproduct of every bar of chocolate ever made — into regenerated cellulose textile fibers. Non-fossil. Circular. Scalable.</p>
+          <div class="hero__actions">
+            <a href="#samples" class="btn btn--primary">Request a Sample</a>
+            <a href="#technology" class="btn btn--ghost">View Technology</a>
+          </div>
+        </div>
+
+        <div class="hero__viz reveal reveal--delay-1" aria-label="Cocoa pod composition: 25% chocolate, 75% CocoaFiber">
+          <div class="pod-wrap">
+            <svg class="pod-svg" viewBox="0 0 320 420" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <ellipse cx="160" cy="210" rx="108" ry="175" fill="#2a1208" stroke="#5a2e14" stroke-width="1.5"/>
+              <path d="M160 35 C160 35 130 120 130 210 C130 300 160 385 160 385" stroke="#3d1a0a" stroke-width="1" opacity="0.8"/>
+              <path d="M160 35 C160 35 145 120 145 210 C145 300 160 385 160 385" stroke="#3d1a0a" stroke-width="1" opacity="0.6"/>
+              <path d="M160 35 C160 35 175 120 175 210 C175 300 160 385 160 385" stroke="#3d1a0a" stroke-width="1" opacity="0.6"/>
+              <path d="M160 35 C160 35 190 120 190 210 C190 300 160 385 160 385" stroke="#3d1a0a" stroke-width="1" opacity="0.4"/>
+              <path d="M160 35 C160 35 130 120 130 210 C130 300 160 385 160 385" stroke="#3d1a0a" stroke-width="1" opacity="0.4" transform="scale(-1,1) translate(-320,0)"/>
+              <line x1="68" y1="140" x2="252" y2="140" stroke="#c4622d" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.9"/>
+              <ellipse cx="160" cy="210" rx="108" ry="175" fill="none" stroke="#c4622d" stroke-width="1" opacity="0.2"/>
+              <path d="M155 35 C155 20 165 15 162 8" stroke="#5a2e14" stroke-width="3" stroke-linecap="round"/>
+              <path d="M162 8 C163 4 167 3 168 6" stroke="#5a2e14" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <div class="pod-label pod-label--top">
+              <span class="pod-pct">25<span>%</span></span>
+              <span class="pod-name">Chocolate</span>
+              <span class="pod-desc">Cocoa beans — the world's commodity crop</span>
+            </div>
+            <div class="pod-label pod-label--bottom">
+              <span class="pod-pct pod-pct--accent">75<span>%</span></span>
+              <span class="pod-name">CocoaFiber</span>
+              <span class="pod-desc">Pod husk — our feedstock, previously wasted</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ─── MATERIAL STRIP ────────────────────────────────────────────────── -->
+    <div class="strip">
+      <div class="strip__inner">
+        <span>Non-Fossil Feedstock</span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span>Fertilizer Co-Product</span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span>Drop-in Compatible</span>
+      </div>
+    </div>
+
+    <!-- ─── TECHNOLOGY ────────────────────────────────────────────────────── -->
+    <section class="section technology" id="technology">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="eyebrow">Technology</p>
+          <h2>Proprietary process.<br><em>Infrastructure-compatible output.</em></h2>
+          <p class="section__sub">CocoaFiber's end-to-end process transforms cocoa pod husk — a lignocellulosic agricultural byproduct — into regenerated cellulose staple fiber through a proprietary wet-chemistry and spinning pathway.</p>
+        </div>
+
+        <div class="tech-cards tech-cards--three">
+          <div class="tech-card reveal">
+            <h4>Cocoa Pod Husk</h4>
+          </div>
+          <div class="tech-card reveal reveal--delay-1">
+            <h4>Proprietary Extraction</h4>
+          </div>
+          <div class="tech-card reveal reveal--delay-2">
+            <h4>Fiber Spinning</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── APPLICATIONS ──────────────────────────────────────────────────── -->
+    <section class="section applications" id="applications">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="eyebrow">Applications</p>
+          <h2>Where CocoaFiber<br><em>performs.</em></h2>
+          <p class="section__sub">Engineered for direct adoption across multiple end-use markets on existing machinery — no new capital equipment required by downstream partners.</p>
+        </div>
+        <div class="app-grid">
+          <div class="app-card reveal">
+            <div class="app-card__num" aria-hidden="true">01</div>
+            <h3>Apparel</h3>
+            <p>Woven and knitted fabrics with a hand-feel comparable to modal and lyocell. Suitable for premium and performance apparel seeking bio-based fiber content.</p>
+          </div>
+          <div class="app-card reveal reveal--delay-1">
+            <div class="app-card__num" aria-hidden="true">02</div>
+            <h3>Automotive Interiors</h3>
+            <p>Headliners, seat facings, and trim textiles for OEMs facing increasing regulatory and consumer pressure to reduce fossil content in interior materials.</p>
+          </div>
+          <div class="app-card reveal reveal--delay-2">
+            <div class="app-card__num" aria-hidden="true">03</div>
+            <h3>Soft Goods &amp; Nonwovens</h3>
+            <p>Wipes, hygiene products, and technical textiles. Biodegradable cellulose is a direct substitute for synthetic fiber in disposable and semi-durable applications.</p>
+          </div>
+          <div class="app-card reveal reveal--delay-3">
+            <div class="app-card__num" aria-hidden="true">04</div>
+            <h3>Blended Textiles</h3>
+            <p>Staple fiber engineered for blending with cotton, wool, and other cellulosics at any ratio. Brands can incorporate CocoaFiber incrementally on existing spinning lines.</p>
+          </div>
+          <div class="app-card reveal reveal--delay-4">
+            <div class="app-card__num" aria-hidden="true">05</div>
+            <h3>Technology Licensing</h3>
+            <p>The CocoaFiber waste valorization platform is applicable to other agricultural byproduct streams. Long-term commercialization includes licensing core processing IP to partners in adjacent biomass verticals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── SAMPLES ───────────────────────────────────────────────────────── -->
+    <section class="section samples" id="samples">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="eyebrow">Sample Requests</p>
+          <h2>Work with our<br><em>material directly.</em></h2>
+          <p class="section__sub">We work with textile mills, brands, automotive suppliers, research institutions, and investors at various stages of evaluation. Fill out the form and we will be in touch within 3 business days.</p>
+        </div>
+        <form class="sample-form reveal" id="sample-form" name="sample-request" netlify netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="sample-request" />
+          <input type="hidden" name="bot-field" />
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="company">Company / Institution</label>
+              <input type="text" id="company" name="company" placeholder="Acme Textiles" required autocomplete="organization" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="role">Your Role</label>
+              <select id="role" name="role">
+                <option value="" disabled selected>Select one</option>
+                <option>Textile Mill / Manufacturer</option>
+                <option>Apparel Brand</option>
+                <option>Automotive Supplier</option>
+                <option>Investor</option>
+                <option>Research Institution</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group form-group--full">
+            <label for="usecase">Intended Use / Application</label>
+            <textarea id="usecase" name="usecase" rows="4" placeholder="Describe your intended application, volume requirements, or evaluation purpose..."></textarea>
+          </div>
+          <div class="form-footer">
+            <button type="submit" class="btn btn--primary">Submit Request</button>
+            <p class="form-note">We do not share your information. Samples subject to availability and qualification.</p>
+          </div>
+          <div class="form-success" id="form-success" aria-live="polite" hidden>
+            <p>Thank you — your request has been received. We'll be in touch within 3 business days.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ─── ABOUT ──────────────────────────────────────────────────────────── -->
+    <section class="section about" id="about">
+      <div class="container about__inner">
+        <div class="about__img reveal">
+          <div class="portrait-block">
+            <img src="SHenryHeadshot2026.jpg" alt="Shannen-Kaylia Henry, Founder of CocoaFiber" class="portrait-img" />
+          </div>
+        </div>
+        <div class="about__text reveal reveal--delay-1">
+          <p class="eyebrow">About</p>
+          <h2>Shannen-Kaylia<br><em>Henry</em></h2>
+          <p class="about__title">Founder · Inventor · Lead Process Developer</p>
+          <p>Shannen-Kaylia Henry is the founder and lead developer of CocoaFiber's end-to-end biomass-to-fiber process. She developed the company's proprietary approach to cocoa pod husk cellulose extraction and wet spinning — building the technical foundation for an entirely new category of agricultural-waste-derived regenerated cellulose fiber.</p>
+          <p>Her work sits at the convergence of advanced materials chemistry, supply chain design, and industrial decarbonization. CocoaFiber is the product of her research into underutilized lignocellulosic biomass streams and their potential to displace fossil-derived materials at scale.</p>
+          <p>CocoaFiber is engaged in active partnerships across West Africa, Europe, and North America — building the supply chain, technical validation, and commercial relationships needed to bring this material to market.</p>
+          <a href="#contact" class="btn btn--ghost about__btn">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CAREERS ───────────────────────────────────────────────────────── -->
+    <section class="section careers" id="careers">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="eyebrow">Careers</p>
+          <h2>Build the future<br><em>of materials.</em></h2>
+          <p class="section__sub">We are a small, technically deep team working at the intersection of chemistry, supply chain, and materials science. We hire people who want to work on hard problems that matter.</p>
+        </div>
+        <div class="careers__grid">
+          <div class="career-card reveal">
+            <div class="career-card__status">Open</div>
+            <h3>Materials Scientist / Process Chemist</h3>
+            <p>Lead experimental work on cellulose extraction and dope formulation. Experience with lyocell, viscose, or wet spinning preferred. Based in New York or remote with lab access.</p>
+            <a href="mailto:careers@cocoafiber.com?subject=Materials Scientist Application" class="btn btn--ghost">Apply</a>
+          </div>
+          <div class="career-card reveal reveal--delay-1">
+            <div class="career-card__status">Open</div>
+            <h3>Supply Chain &amp; Partnerships Lead</h3>
+            <p>Develop and manage relationships with cocoa cooperatives, mills, and downstream textile partners across West Africa, Europe, and North America. Fluency in French a strong asset.</p>
+            <a href="mailto:careers@cocoafiber.com?subject=Supply Chain Lead Application" class="btn btn--ghost">Apply</a>
+          </div>
+          <div class="career-card reveal reveal--delay-2">
+            <div class="career-card__status">Future</div>
+            <h3>Textile Engineer</h3>
+            <p>Scale fiber production and downstream textile processing. Deep knowledge of staple fiber spinning, weaving, or nonwoven processing. We are building toward this hire — reach out to be considered early.</p>
+            <a href="mailto:careers@cocoafiber.com?subject=Textile Engineer Inquiry" class="btn btn--ghost">Express Interest</a>
+          </div>
+        </div>
+        <p class="careers__note reveal">Don't see a fit? We always want to hear from exceptional people. Send a brief note to <a href="mailto:careers@cocoafiber.com">careers@cocoafiber.com</a></p>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ───────────────────────────────────────────────────────── -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__inner reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's build<br><em>something real.</em></h2>
+          <p class="contact__desc">For investment inquiries, partnership conversations, pilot opportunities, press, or anything else — reach us directly.</p>
+          <div class="contact__channels">
+            <a href="mailto:hello@cocoafiber.com" class="contact__channel">
+              <span class="contact__channel-label">General</span>
+              <span class="contact__channel-value">hello@cocoafiber.com</span>
+            </a>
+            <a href="mailto:invest@cocoafiber.com" class="contact__channel">
+              <span class="contact__channel-label">Investment</span>
+              <span class="contact__channel-value">invest@cocoafiber.com</span>
+            </a>
+            <a href="mailto:press@cocoafiber.com" class="contact__channel">
+              <span class="contact__channel-label">Press</span>
+              <span class="contact__channel-value">press@cocoafiber.com</span>
+            </a>
+          </div>
+          <a href="mailto:hello@cocoafiber.com" class="btn btn--primary contact__btn">Send a Message</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo">
+          <img src="cocoafiber-logo.png" alt="CocoaFiber" class="nav__logo-img nav__logo-img--footer" />
+        </a>
+        <p>Advanced biomaterials from<br>chocolate industry waste.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <ul role="list">
+          <li><a href="#technology">Technology</a></li>
+          <li><a href="#applications">Applications</a></li>
+          <li><a href="#samples">Samples</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <p class="footer__copy">&copy; <span id="year"></span> CocoaFiber. All rights reserved. · New York, NY</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
