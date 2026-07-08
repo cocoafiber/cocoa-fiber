@@ -913,19 +913,19 @@ p { color: var(--cream-dim); line-height: 1.8; }
   .footer__nav ul { gap: 16px; }
 
   .supported-marquee {
-  padding: 70px 0;
+  padding: 55px 0;
   background: #fff;
   overflow: hidden;
   text-align: center;
 }
 
 .supported-marquee__eyebrow {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: #3b2418;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
 }
 
 .supported-marquee__track {
@@ -936,35 +936,27 @@ p { color: var(--cream-dim); line-height: 1.8; }
 .supported-marquee__row {
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 60px;
   width: max-content;
-  animation: supporterScroll 34s linear infinite;
+  animation: supporterScroll 38s linear infinite;
 }
 
 .supported-marquee__row img {
-  height: 48px;
+  height: 28px;
+  max-height: 28px;
   width: auto;
-  max-width: 180px;
+  max-width: 130px;
   object-fit: contain;
-  opacity: 0.72;
+  opacity: 0.7;
   filter: grayscale(100%);
-  transition: all 0.3s ease;
-}
-
-.supported-marquee__row img:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-  transform: scale(1.04);
-}
-
-.supported-marquee__track:hover .supported-marquee__row {
-  animation-play-state: paused;
+  background: transparent !important;
+  mix-blend-mode: multiply;
 }
 
 .supported-marquee__note {
-  margin-top: 30px;
-  font-size: 12px;
-  color: #8b7a70;
+  margin-top: 24px;
+  font-size: 11px;
+  color: #9a8b82;
 }
 
 @keyframes supporterScroll {
@@ -974,4 +966,4 @@ p { color: var(--cream-dim); line-height: 1.8; }
   to {
     transform: translateX(-50%);
   }
-}
+}}
