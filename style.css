@@ -482,7 +482,7 @@ p { color: var(--cream-dim); line-height: 1.8; }
 
 /* ─── SUPPORTED BY / LOGO MARQUEE ─────────────────────────────────────────── */
 .supported-marquee {
-  padding: 56px 0;
+  padding: 56px 24px;
   background: var(--bg-mid);
   overflow: hidden;
   text-align: center;
@@ -508,9 +508,9 @@ p { color: var(--cream-dim); line-height: 1.8; }
 .supported-marquee__row {
   display: flex;
   align-items: center;
-  gap: 72px;
+  gap: 54px;
   width: max-content;
-  animation: supporterScroll 42s linear infinite;
+  animation: supporterScroll 22s linear infinite;
 }
 
 .supported-marquee__row img {
@@ -542,7 +542,7 @@ p { color: var(--cream-dim); line-height: 1.8; }
 
 @keyframes supporterScroll {
   from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  to { transform: translateX(-33.333%); }
 }
 
 /* ─── APPLICATIONS ───────────────────────────────────────────────────────── */
