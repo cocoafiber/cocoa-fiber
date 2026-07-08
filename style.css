@@ -514,8 +514,8 @@ p { color: var(--cream-dim); line-height: 1.8; }
 }
 
 .supported-marquee__row img {
-  height: 28px;
-  max-height: 28px;
+  height: 40px;
+  max-height: 40px;
   width: auto;
   max-width: 140px;
   object-fit: contain;
